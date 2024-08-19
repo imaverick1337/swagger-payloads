@@ -1,19 +1,21 @@
 swagger: "2.0"
 info:
   version: "v1"
-  title: Please login first 
+  title: Please login first
 
-host: https://rid5lwd183h8e7cqcjlgpf0z0q6hu9iy.oastify.com
-paths: 
-  /gUsernamel/{Password}:
+host: qjd4mve092i7f6dpdimfqe1y1p7gv9jy.oastify.com
+
+paths:
+
+  /{Username}/{Password}:
     post:
       summary: Logs in
       parameters:
-        - name: Username
+        - name: Username 
           required: true
           in: path
           type: string
-        - name: Password
+        - name: Password 
           required: true
           in: path
           type: string
